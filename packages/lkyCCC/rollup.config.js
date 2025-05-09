@@ -3,7 +3,7 @@
  * @Author: linkaiyan
  * @Email: linkaiyan@xinyu668.com
  * @Date: 2025-04-02 14:05:01
- * @LastEditTime: 2025-04-07 10:19:53
+ * @LastEditTime: 2025-05-10 02:33:37
  * @LastEditors: linkaiyan
  * @Description: 
  */
@@ -21,7 +21,7 @@ const require = createRequire(import.meta.url);
 const pkg = require('./package.json');
  
 export default {
-  input: 'package/index.js', // 入口文件
+  input: './index.js', // 入口文件
   output: [ // 输出配置，可以配置多种格式，如 UMD, ESM, CJS 等
     {
       file: pkg.main, // pkg.main 从 package.json 中引用 main 字段，通常是 dist/index.js
