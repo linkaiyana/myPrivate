@@ -25,7 +25,7 @@ function makeMap(str){const map=Object.create(null);for(const key of str.split("
  * @Author: linkaiyan
  * @Email: linkaiyan@xinyu668.com
  * @Date: 2025-04-02 14:17:41
- * @LastEditTime: 2025-04-07 11:04:47
+ * @LastEditTime: 2025-05-10 03:17:11
  * @LastEditors: linkaiyan
  * @Description: 
  */const components=[script];const install=app=>{components.forEach((component=>{app.component(component.name,component)}))};var index={install:install};export{script as LButton,index as default};
