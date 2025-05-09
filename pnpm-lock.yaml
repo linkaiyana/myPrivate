@@ -54,6 +54,9 @@ importers:
 
   packages/lkyDDD:
     dependencies:
+      lkyccc:
+        specifier: workspace:*
+        version: link:../lkyCCC
       rollup-plugin-commonjs:
         specifier: ^10.1.0
         version: 10.1.0(rollup@2.79.2)
